@@ -1,0 +1,24 @@
+
+/* Body section1 */
+
+#Biography-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.details{
+    margin: 0 5rem;
+}
+
+/* Body section2 */
+#Biography-section2,#Biography-section3,#Biography-section4, #Biography-section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+/* Body section3 */
+

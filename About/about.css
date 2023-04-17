@@ -1,0 +1,22 @@
+.about-info,
+.Skills,
+.other--skills,
+.skills--section2,
+.Accolades{
+    margin: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info--styles{
+    padding: 5rem;
+}
+
+.Skills li,
+.other--skills li,
+.skills--section2 li{
+    list-style: none;
+    padding: .5rem 0;
+}

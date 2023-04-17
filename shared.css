@@ -1,0 +1,68 @@
+:root{
+    --header-or-footer: #66BFBF;
+    --body-or-content: #EAf6f6;
+    --other-content: #FCFEFE;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: .3rem;
+    height: 0;
+    width: 5%;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    background-color: var(--body-or-content);
+}
+
+/* Header  */
+#Navigation{
+    background-color: var(--header-or-footer);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.Navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.home{
+    width: 80vw;
+    margin-left: 5rem;
+}
+
+#Navigation a{
+    color: black;
+    text-decoration: none;
+}
+
+.Navigation--Links{
+    display: flex;
+    align-items: center;
+    margin-right: 8rem;
+}
+
+.Navigation--Links li{
+    list-style: none;
+}
+
+.Navigation--Links a{
+    text-decoration: none;
+}
+
+.Navigation--Link{
+    padding: 0 .5rem;
+}

@@ -1,0 +1,15 @@
+#contact--me1,
+#contact--me2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Handles{
+    margin: 5rem 4rem 0 0;
+}
+
+.form-entries{
+    margin: 2rem 0;
+}
